@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Repo](https://github.com/suzubu/social-links-profile-main)
-- Live Site URL: [Live Site](https://your-live-site-url.com)
+- Live Site URL: [Live Site](https://suzubu.github.io/social-links-profile-main/)
 
 ## My process
 
@@ -42,7 +42,6 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
 
 
 ## Acknowledgments
