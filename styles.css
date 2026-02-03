@@ -89,4 +89,6 @@ body {
 
 a:hover {
   cursor: pointer;
+  background-color: var(--green);
+  color: var(--grey-900);
 }
