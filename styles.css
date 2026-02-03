@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;500;600;900&display=swap");
 
 :root {
   --green: #c5f82a;
@@ -8,7 +8,9 @@
   --grey-900: #141414;
 }
 
-* {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -34,7 +36,6 @@ body {
 .profile {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
@@ -45,6 +46,7 @@ body {
 #avatar-img {
   border-radius: 50%;
   width: 3.5rem;
+  display: block;
 }
 
 .name {
@@ -68,15 +70,14 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   width: 100%;
   padding-bottom: 0.3rem;
 }
 
-a {
+.links a {
   background-color: var(--grey-700);
-  text-decoration: none;
   color: var(--white);
+  text-decoration: none;
   width: 90%;
   font-size: 0.5rem;
   font-weight: 600;
@@ -88,11 +89,4 @@ a {
 
 a:hover {
   cursor: pointer;
-}
-
-a,
-a:hover,
-a:active,
-a:visited {
-  color: white;
 }
